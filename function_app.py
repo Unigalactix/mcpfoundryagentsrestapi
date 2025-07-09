@@ -41,7 +41,7 @@ tool_properties_get_snippets_json = json.dumps([prop.to_dict() for prop in tool_
     arg_name="context",
     type="mcpToolTrigger",
     toolName="get_aiagentdata",
-    description="Retrieve a data from ai agents.",    
+    description="Retrieve data from ai agents.",    
     toolProperties=json.dumps([ {"propertyName": "query", "propertyType": "string", "description": "Whats the weather in Seattle today?"} ]),
 )
 def get_aiagentdata(context) -> str:
