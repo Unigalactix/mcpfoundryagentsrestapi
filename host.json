@@ -11,5 +11,12 @@
   "extensionBundle": {
     "id": "Microsoft.Azure.Functions.ExtensionBundle.Preview",
     "version": "[4.*, 5.0.0)"
+  },
+  "extensions": {
+    "mcp": {
+      "instructions": "MCP Foundry Agent REST API",
+      "serverName": "aiagentmcp",
+      "serverVersion": "2.0.0"
+    }
   }
 }
