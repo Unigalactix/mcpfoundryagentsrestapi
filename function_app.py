@@ -61,4 +61,4 @@ def get_aiagentdata(context) -> str:
     datars = agents.ai_default_agent(query_from_args)
     print(f"Data returned from agent: {datars}")
     logging.info(f"Retrieved snippet: {datars}")
-    return datars
+    return f"Hello, {datars}. This HTTP triggered function executed successfully."
